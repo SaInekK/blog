@@ -35,6 +35,9 @@ p.first {
     float: left;
 }
 
+#top {
+    margin-bottom: 70px;
+}
 p.last {
     margin: 0;
     float: right;
@@ -45,7 +48,7 @@ ul.post {
     margin: 0;
     padding: 0;
 }
-.buttons > p > a {
+p.button > a, #name, .post_ref{
     text-decoration:none;
     color: black;
 }
@@ -57,4 +60,8 @@ div.top-panel {
     padding: 5px 10px 5px 10px;
     box-sizing border-box;
     overflow: hidden;
+}
+
+form {
+    margin-bottom: 50px;
 }
